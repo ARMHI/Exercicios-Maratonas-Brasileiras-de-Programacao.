@@ -15,7 +15,6 @@ scanf ("%d\n", &clock);
 
 string = ((char*) malloc(sizeof(char) * clock));
 
-string = realloc(string, clock * sizeof(char));
 
 for (click=0; click<clock; click++) {
 
